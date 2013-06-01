@@ -81,7 +81,7 @@ function Update () {
 	if (health == 0)
 	{
 		Application.LoadLevel(3);
-	//else if health is not 0 the game will load next level
+	//else if health is not 0 the game will load game over screen
 	}else{
 		//setting key to shoot the laser for spaceship/player
 		if(Input.GetKeyDown(KeyCode.L))
